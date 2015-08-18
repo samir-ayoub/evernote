@@ -1,0 +1,131 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.googleapis.com/css?family=Roboto+Slab');
+
+.header{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	height:220px;
+}
+
+.row{
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px 20px 20px 20px;
+}
+.svg{
+	width:200px;
+	height:50px;
+	float:left;
+	padding-right: 30px;
+}
+
+.button_business{
+	border: 1px solid #c0c0c0;
+	border-radius: 8px;
+	padding: 12px 20px 12px 20px;
+	float:left;
+	font-family: "Open Sans",Helvetica,Verdana;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 3px;
+	color: #848484;
+		}
+
+.right_panel,.price,.download,.menu{
+	float:right;
+	font-family: "Open Sans",Helvetica,Verdana;
+	font-size: 14px;
+	text-decoration: none;
+	color:#848484;
+}
+.price{
+	float:right;
+	font-family: "Open Sans",Helvetica,Verdana;
+	font-size: 17px;
+	text-decoration: none;
+	color:#848484;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin-right: 15px;
+}
+
+.download{
+	float:right;
+	margin-right: 15px;
+	border:1px solid #848484;
+	border-radius: 8px;
+	padding: 8px 12px 8px 12px;
+	transition: border 0.3s ease-in-out 0s,color 0.3s ease-in-out 0s;
+}
+
+.menu{
+	float:right;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-right: 20px;
+}
+.bgmain{
+	display: block;
+    width: 100%;
+    height: 600px;
+}
+
+.bg1{
+	background: url("https://cdn1.evernote.com/media/img/home/desktop/hero-new/mm-pt-br-xl.jpg");
+	width:100%;
+	height:600px;
+
+}
+
+.bgcontent{
+	position: absolute;
+	top:300px;
+	right:50px;
+	width:18.75rem;
+}
+
+.bgcontent h1{
+	font-family: "Roboto Slab";
+	font-size: 45px;
+	color:#333333;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.bgcontent p{
+	font-family:"Open Sans";
+	font-size: 18px;
+	color:#333333;
+	margin-bottom: 35px;
+}
+.button_subscribe{
+	font-size: 15px;
+	text-decoration: none;
+	background-color: #00d27f;
+	padding: 8px 20px 8px 15px;
+	border-radius: 15px;
+	font-family:"Open Sans";
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 35px;
+}
+
+.entre h2{
+	margin-top: 20px;
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+
+.underline{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.planos{
+	display: block;
+    width: 100%;
+    height: 600px;
+	background-color: #848484;
+}
