@@ -5,9 +5,13 @@
 	display:block;
 	margin-left: auto;
     margin-right: auto;
-	height:220px;
+	height:75px;
 }
 
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
 .row{
 	margin-left: auto;
 	margin-right: auto;
@@ -20,7 +24,7 @@
 	padding-right: 30px;
 }
 
-.button_business{
+.header .row .button_business{
 	border: 1px solid #c0c0c0;
 	border-radius: 8px;
 	padding: 12px 20px 12px 20px;
@@ -66,20 +70,21 @@
 	margin-right: 20px;
 }
 .bgmain{
-	display: block;
+	margin:0 auto;
+	box-sizing:border-box;
     width: 100%;
     height: 600px;
 }
 
 .bg1{
-	background: url("https://cdn1.evernote.com/media/img/home/desktop/hero-new/mm-pt-br-xl.jpg");
-	width:100%;
-	height:600px;
-
+	background: url("https://cdn1.evernote.com/media/img/home/desktop/hero-new/mm-pt-br-xl.jpg")
+	 no-repeat center center;
+	 background-size: cover;
+	 height:600px;
 }
 
 .bgcontent{
-	position: absolute;
+	position:absolute;
 	top:300px;
 	right:50px;
 	width:18.75rem;
@@ -124,8 +129,363 @@
 }
 
 .planos{
-	display: block;
-    width: 100%;
-    height: 600px;
-	background-color: #848484;
+	width: 100%;
+	background: white;
+	float: left;
+	padding:20px 0;
+}
+
+.planos ul{
+	float: left;
+}
+
+.row{
+	max-width: 58.75rem;
+	margin: 0 auto;
+	height:100%;
+}
+
+.row li{
+	float:left;
+	width:28%;
+	font-family:"Open Sans";
+}
+
+.row .plus{
+	margin:0 5%;
+}
+
+.button_create_account_basic, .explorar_link_basic, .basic{
+	box-sizing:border-box;
+	color:#758d94;
+	display:block;
+}
+
+.button_create_account_plus, .explorar_link_plus, .plus{
+	box-sizing:border-box;
+	color:#2facb2;
+	display:block;
+}
+
+.button_create_account_premium, .explorar_link_premium, .premium{
+	box-sizing:border-box;
+	color:#2dbe60;
+	display:block;
+}
+
+.circle_basic{
+	background-color: #758d94;
+	content:"";
+	width:2.3125rem;
+	height:2.3125rem;
+    border-radius: 50%;
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-bottom: 10px;
+}
+
+.circle_plus{
+	content:"";
+	width:2.3125rem;
+	height:2.3125rem;
+    border-radius: 50%;
+	background-color: #2facb2;
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-bottom: 10px;
+}
+
+.circle_premium{
+	content:"";
+	width:2.3125rem;
+	height:2.3125rem;
+    border-radius: 50%;
+	background-color: #2dbe60;
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-top:-16px;
+    margin-left:-25px;
+    margin-bottom: 10px;
+}
+
+.row h1{
+	font-family:"Open Sans";
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	text-align: center;
+} 
+
+.description{
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	font-family:"Open Sans";
+	font-size: 15px;
+	color:#666666;
+	padding:20px 0;
+}
+
+.gratis{
+	font-size: 35px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0;
+	margin-bottom: 18px;
+	color:#666666;
+	font-weight: lighter;
+
+}
+
+.small{
+	font-size: 12px;
+	margin-left: -20px;
+}
+
+.button_create_account_basic{
+	box-sizing:border-box;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	padding: 7px 40px;
+	border-radius: 0.5rem;
+	background-color: #758d94;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	display:block;
+}
+
+
+.button_create_account_plus{
+	box-sizing:border-box;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	padding: 7px 40px;
+	border-radius: 0.5rem;
+	background-color: #2facb2;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	display:block;
+}
+
+.button_create_account_premium{
+	box-sizing:border-box;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	padding: 7px 40px;
+	border-radius: 0.5rem;
+	background-color: #2dbe60;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	display:block;
+}
+
+.button_business2{
+	border: 1px solid #c0c0c0;
+	border-radius: 8px;
+	padding: 12px 20px 12px 20px;
+	float:left;
+	font-family: "Open Sans",Helvetica,Verdana;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #848484;
+	margin-top: 20px;
+	color: #2dbe60;
+		}
+
+.home_intro{
+	padding-top: 10px;
+	margin: 0 auto;
+	display:block;
+	float: left;
+	width: 100%;
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #fffcf5), color-stop(100%, #d9ceb4));
+}
+
+.home_intro h2{
+	text-align: center;
+	font-family: "Open Sans",Helvetica,Verdana;
+	text-decoration: underline;
+	font-size: 24px;
+	color:#606060;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.home_intro h3, .colecione h3, .messages h3, .graphs h3, .plataformas h3{
+	font-family: "Open Sans",Helvetica,Verdana;
+	font-size: 30px;
+	color:#606060;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.home_intro .content{
+	float:left;
+	width: 40%;
+}
+
+.home_intro .content p, .colecione p, .messages p, .graphs p, .plataformas p{
+	font-family: "Roboto Slab";
+	font-size: 16px;
+	color:#606060;
+}
+
+.home_intro .laptop{
+	width: 60%;
+	float: right;
+}
+
+.home_intro .laptop img{
+	max-width: 600px;
+	margin-bottom: 60px;
+}
+
+.colecione .tablet{
+	width: 60%;
+	float:left;
+
+}
+
+.colecione .content{
+	padding-top: 60px;
+	float:right;
+	width: 30%;
+}
+
+.colecione{
+	background: url(http://evernote.com/media/img/home/desktop/collect-bg.jpg);
+	margin: 0 auto;
+	display:block;
+	float: left;
+	width: 100%;
+	padding-top: 50px;
+	box-shadow: inset 0 0 75px 0 #3a2619;
+}
+
+.colecione p, .colecione h3{
+	color: #fff;
+	float:right;
+}
+
+.messages{
+	background: url(https://evernote.com/media/img/home/desktop/MKT15019_Lifestyle_Phone_IOS_APac_MT_v1-blur-vig_TJM.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	display:block;
+	float: left;
+	width: 100%;
+	padding-top: 50px;
+	box-shadow: inset 0 0 75px 0 #3a2619;	
+}
+
+.messages p, .messages h3{
+	color: #fff;
+	float:left;
+}
+
+.messages .content{
+	padding-top: 60px;
+	float:left;
+	width: 30%;
+	margin-bottom: 70px;
+}
+
+.graphs{
+	background: url(https://evernote.com/media/img/home/desktop/bg-present-repeater.jpg);
+	background-position: bottom;
+	margin: 0 auto;
+	display:block;
+	float: left;
+	width: 100%;
+	box-shadow: inset 0 0 75px 0 #3a2619;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*
+.graphs .container{
+	background: url(https://evernote.com/media/img/home/desktop/bg-present-items.png);
+	background-size: cover;
+}*/
+
+.graphs p, .graphs h3{
+	color: #fff;
+	float:right;
+}
+
+.graphs .content{
+	float:right;
+	width: 30%;
+}
+
+.graphs .container .row .computer{
+	float:left;
+	width:40%;
+}
+
+.plataformas{
+	background: url(https://cdn1.evernote.com/evernote.com/img/upgrade/desktop/sync_everywhere.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	display:block;
+	float: left;
+	width: 100%;
+	height:430px;
+	margin-bottom: 60px;
+
+}
+
+.plataformas h2{
+	float:left;
+	font-family: "Roboto Slab";
+	font-size: 30px;
+	color:#606060;
+	padding-top: 40px;
+	width: 50%;
+	font-weight: lighter;
+}
+
+
+.footer_nav{
+	clear:both;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.nav_row{
+	max-width: 58.75rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nav_row li{
+	display:inline-block;
+	padding-bottom: 40px;
+
+}
+.nav_row li a{
+	font-family: "Open Sans",Helvetica,Verdana;
+	text-transform: uppercase;
+	font-size: 12px;
+	color:#2dbe60;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+footer{
+	padding-bottom: 50px;
 }
